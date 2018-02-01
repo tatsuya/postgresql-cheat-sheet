@@ -1,4 +1,4 @@
-# PostgreSQL
+# PostgreSQL Cheat Sheet
 
 <!-- MarkdownTOC autolink="true" bracket="round" depth="3" -->
 
