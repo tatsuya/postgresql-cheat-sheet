@@ -23,51 +23,47 @@
 
 ## General
 
-### Checking version
+Check version:
 
 ```
 psql --version
 ```
 
-### Log into the prompt interface
+Log into the prompt interface:
 
 ```
 psql -d db_name
 ```
 
-### View Roles
-
-Get a list of roles.
+Get a list of roles:
 
 ```
 \du
 ```
 
-Get your own roles.
+Get your own roles:
 
 ```
 \du your_name
 ```
 
-Get your own roles with description.
+Get your own roles with description:
 
 ```
 \du+
 ```
 
-### List all databases
+List databases:
 
 ```
 \l
 ```
 
-with additional detail
+List databases with additional detail:
 
 ```
 \l+
 ```
-
-### Configure output mode
 
 Toggle output mode:
 
@@ -75,7 +71,7 @@ Toggle output mode:
 \x
 ```
 
-Or call it explicitly:
+Toggle output mode explicitly:
 
 ```
 \x on
@@ -85,9 +81,7 @@ Or call it explicitly:
 
 `auto` automatically adjusts output type depending on the screen size.
 
-### Display information about current database connection
-
-Check current connected database and user.
+Display information about current database connection:
 
 ```
 \conninfo
